@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 100;
+    background-color: #2a2f3a;
 }
 
 .logo {
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #a0895a;
+    color: #eb5a01;
 }
 
 .home {
@@ -95,27 +96,27 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #a0895a;
+    border: 2px solid #eb5a01;
     border-radius: 50%;
     font-size: 20px;
-    color: #a0895a;
+    color: #eb5a01;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
 }
 
 .social-media a:hover {
-    background: #a0895a;
+    background: #eb5a01;
     color: #1f242d;
-    box-shadow: 0 0 20px #a0895a;
+    box-shadow: 0 0 20px #eb5a01;
 }
 
 .btn {
     display: inline-block;
     padding: 12px 28px;
-    background: #a0895a;
+    background: #eb5a01;
     border-radius: 40px;
-    box-shadow: 0 0 10px #a0895a;
+    box-shadow: 0 0 10px #eb5a01;
     font-size: 16px;
     color: #1f242d;
     initial-letter: 1px;
@@ -144,3 +145,57 @@ body {
         opacity 1px;
     }
 }
+
+.map-container {
+    background-color: #2a2f3a;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #2a2f3a;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+.map-container iframe {
+    width: 60%;
+    height: 100%;
+    border: 0;
+  }
+
+
+footer {
+    background-color: #2a2f3a;
+    padding: 50px 0;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  footer ul li a {
+    color: #333;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer hr {
+    border-top: 1px solid #ccc;
+  }
+  
+  footer p small {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  
