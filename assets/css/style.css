@@ -156,46 +156,40 @@ body {
     overflow: hidden;
   }
 
+.map-container h1 {
+    width: 160%;
+    height: 0px;
+    text-align: center;
+  }
+
+.map-container h3 {
+    width: 160%;
+    height: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+}
+
 .map-container iframe {
     width: 60%;
     height: 100%;
     border: 0;
   }
 
-
 footer {
     background-color: #2a2f3a;
-    padding: 50px 0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
   }
   
-  footer h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
   }
   
-  footer ul li a {
-    color: #333;
-  }
-  
-  footer p {
-    margin-bottom: 0;
-  }
-  
-  footer hr {
-    border-top: 1px solid #ccc;
-  }
-  
-  footer p small {
-    display: block;
-    font-size: 12px;
-    color: #777;
-  }
-  
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
   
   
